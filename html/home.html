@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar">
+
 <head>
     <meta charset="UTF-8">
     <title> الصفحه الرئيسيه</title>
@@ -14,10 +15,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Harmattan:wght@400;500;600;700&display=swap"
         rel="stylesheet">
-        <link rel="icon" href="../favicon.ico" type="image/x-icon">
-        <!-- Usage Data -->
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <!-- Usage Data -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <!-- تضمين مكتبة html2canvas -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -34,13 +35,15 @@
     <script type="module" src="../js/delelet-all.js"></script>
     <script type="module" src="../js/usageDatabase.js"></script>
 </head>
+
 <body>
     <a href="#" target="_blank"></a>
     <div class="main-page">
         <header>
             <ul class="large-ul">
                 <li id="btnSupport">
-                    <a href="chat.-help.html" target="_blank"><img src="../images/help.png" width="50px" alt=""> الدعم الخاص</a>
+                    <a href="chat.-help.html" target="_blank"><img src="../images/help.png" width="50px" alt=""> الدعم
+                        الخاص</a>
                 </li>
                 <li onclick="changePassName()" id="btnChangePassName">
                     <a href="#">تغيير كلمه السر/الاسم</a>
@@ -55,13 +58,14 @@
             <!-- phone start -->
             <div class="list-phone">
                 <div class="child-list">
-                <div class="option"></div>
-                <div class="option ch"></div>
-                <div class="option"></div>
+                    <div class="option"></div>
+                    <div class="option ch"></div>
+                    <div class="option"></div>
                 </div>
                 <ul class="small-ul" style="display: none;">
                     <li id="btnSupport">
-                        <a href="chat.-help.html" target="_blank"><img src="../images/help.png" width="50px" alt=""> الدعم الخاص</a>
+                        <a href="chat.-help.html" target="_blank"><img src="../images/help.png" width="50px" alt="">
+                            الدعم الخاص</a>
                     </li>
                     <li onclick="changePassName()" id="btnChangePassName">
                         <a href="#">تغيير كلمه السر/الاسم</a>
@@ -107,14 +111,14 @@
                     </ul>
                 </div>
             </aside>
-<!-- محتوي الصفحه -->
+            <!-- محتوي الصفحه -->
             <section id="allContent">
                 <form id="changePasswordForm"></form>
                 <div id="ownerForm" class="add-owner">
                     <h2>تواصل مع الدعم الخاص بنظامك</h2>
                     <!-- <label for="message" style="display: none;">رسالتك:</label> -->
                     <!-- <input type="text" id="message" name="message" style="display: none;"> -->
-                </div>                
+                </div>
                 <div class="bar-code" id="barCode"></div>
                 <div class="sales" id="sales"></div>
                 <div class="storage" id="storage"></div>
@@ -124,10 +128,9 @@
                 <div id="deleteData"></div>
                 <div id="usageDatabase"></div>
                 <canvas id="networkCanvas"></canvas>
-             </div>
+        </div>
         </section>
 
-    </div>
     <footer>
         <p>
             Made By Mahmoud Hamed &copy; 2024
@@ -136,7 +139,7 @@
         </p>
     </footer>
     </div>
-<script src="../js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
