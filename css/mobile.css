@@ -60,16 +60,19 @@
 
 .list-side-bar {
     display: none;
-    width: 0;
-    height: 0;
-    border: 30px solid #fff;
-    border-color:  transparent #fff   transparent   transparent;
+    padding: 10px;
+    text-align: center;
+    /* width: 0; */
+    /* height: 0; */
+    /* border: 30px solid #fff; */
+    /* border-color:  transparent #fff   transparent   transparent; */
     cursor: pointer;
-    animation-name: list-side-bar ;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
+    /* animation-name: list-side-bar ; */
+    /* animation-duration: 1s; */
+    /* animation-timing-function: ease; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate-reverse; */
+    color: aliceblue;
 
 }
 @keyframes list-side-bar {
