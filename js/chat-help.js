@@ -1,13 +1,13 @@
 
         // إعداد Firebase باستخدام بيانات قاعدة البيانات الخاصة بك
         const firebaseConfig = {
-            apiKey: "AIzaSyCPpTAJDRfFuDkq2TGCVIU_LnmYRBXTnSc",
-            authDomain: "new-protfolio.firebaseapp.com",
-            databaseURL: "https://new-protfolio-default-rtdb.firebaseio.com",
-            projectId: "new-protfolio",
-            storageBucket: "new-protfolio.appspot.com",
-            messagingSenderId: "90141039664",
-            appId: "1:90141039664:web:44d13d2f3b943f510aa1f5"
+            apiKey: "AIzaSyDfdJOe80UAwfJFZUgtmHj7TVqSAiCnnAQ",
+  authDomain: "systemcasher-33c06.firebaseapp.com",
+  databaseURL: "https://systemcasher-33c06-default-rtdb.firebaseio.com",
+  projectId: "systemcasher-33c06",
+  storageBucket: "systemcasher-33c06.firebasestorage.app",
+  messagingSenderId: "161097570896",
+  appId: "1:161097570896:web:1b587b0c4e8bac3f378f55"
         };
 
         // تهيئة Firebase
